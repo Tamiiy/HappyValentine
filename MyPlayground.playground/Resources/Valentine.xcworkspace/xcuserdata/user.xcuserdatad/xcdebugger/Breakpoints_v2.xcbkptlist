@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift"
+            timestampString = "477082790.063166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "LTMorphingLabel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTMorphingLabel.LTMorphingLabel.morphingEffect.setter : LTMorphingLabel.LTMorphingEffect"
+                  moduleName = "LTMorphingLabel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Dropbox/iOS_Product/Valentine/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift"
+                  timestampString = "477096917.91024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTMorphingLabel.LTMorphingLabel.morphingEffect.materializeForSet : LTMorphingLabel.LTMorphingEffect"
+                  moduleName = "LTMorphingLabel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Dropbox/iOS_Product/Valentine/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift"
+                  timestampString = "477096917.910549"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTMorphingLabel.LTMorphingLabel.init (LTMorphingLabel.LTMorphingLabel.Type)(frame : __C.CGRect) -&gt; LTMorphingLabel.LTMorphingLabel"
+                  moduleName = "LTMorphingLabel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Dropbox/iOS_Product/Valentine/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift"
+                  timestampString = "477096917.910865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTMorphingLabel.LTMorphingLabel.init (LTMorphingLabel.LTMorphingLabel.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;LTMorphingLabel.LTMorphingLabel&gt;"
+                  moduleName = "LTMorphingLabel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Dropbox/iOS_Product/Valentine/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift"
+                  timestampString = "477096917.911068"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

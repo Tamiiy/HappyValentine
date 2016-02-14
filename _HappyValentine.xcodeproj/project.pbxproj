@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB487281C703B0500999F49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB487271C703B0500999F49 /* AppDelegate.swift */; };
+		CEB4872A1C703B0500999F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB487291C703B0500999F49 /* ViewController.swift */; };
+		CEB4872D1C703B0500999F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB4872B1C703B0500999F49 /* Main.storyboard */; };
+		CEB4872F1C703B0500999F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4872E1C703B0500999F49 /* Assets.xcassets */; };
+		CEB487321C703B0500999F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB487301C703B0500999F49 /* LaunchScreen.storyboard */; };
+		CEB4873D1C703B0600999F49 /* _HappyValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4873C1C703B0600999F49 /* _HappyValentineTests.swift */; };
+		CEB487481C703B0600999F49 /* _HappyValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB487471C703B0600999F49 /* _HappyValentineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB487391C703B0600999F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB4871C1C703B0500999F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB487231C703B0500999F49;
+			remoteInfo = _HappyValentine;
+		};
+		CEB487441C703B0600999F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB4871C1C703B0500999F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB487231C703B0500999F49;
+			remoteInfo = _HappyValentine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB487241C703B0500999F49 /* _HappyValentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _HappyValentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB487271C703B0500999F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB487291C703B0500999F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB4872C1C703B0500999F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB4872E1C703B0500999F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB487311C703B0500999F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB487331C703B0500999F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB487381C703B0600999F49 /* _HappyValentineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _HappyValentineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB4873C1C703B0600999F49 /* _HappyValentineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HappyValentineTests.swift; sourceTree = "<group>"; };
+		CEB4873E1C703B0600999F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB487431C703B0600999F49 /* _HappyValentineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _HappyValentineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB487471C703B0600999F49 /* _HappyValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HappyValentineUITests.swift; sourceTree = "<group>"; };
+		CEB487491C703B0600999F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB487551C703B2F00999F49 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB487211C703B0500999F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB487351C703B0600999F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB487401C703B0600999F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB4871B1C703B0500999F49 = {
+			isa = PBXGroup;
+			children = (
+				CEB487551C703B2F00999F49 /* MyPlayground.playground */,
+				CEB487261C703B0500999F49 /* _HappyValentine */,
+				CEB4873B1C703B0600999F49 /* _HappyValentineTests */,
+				CEB487461C703B0600999F49 /* _HappyValentineUITests */,
+				CEB487251C703B0500999F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB487251C703B0500999F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB487241C703B0500999F49 /* _HappyValentine.app */,
+				CEB487381C703B0600999F49 /* _HappyValentineTests.xctest */,
+				CEB487431C703B0600999F49 /* _HappyValentineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB487261C703B0500999F49 /* _HappyValentine */ = {
+			isa = PBXGroup;
+			children = (
+				CEB487271C703B0500999F49 /* AppDelegate.swift */,
+				CEB487291C703B0500999F49 /* ViewController.swift */,
+				CEB4872B1C703B0500999F49 /* Main.storyboard */,
+				CEB4872E1C703B0500999F49 /* Assets.xcassets */,
+				CEB487301C703B0500999F49 /* LaunchScreen.storyboard */,
+				CEB487331C703B0500999F49 /* Info.plist */,
+			);
+			path = _HappyValentine;
+			sourceTree = "<group>";
+		};
+		CEB4873B1C703B0600999F49 /* _HappyValentineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4873C1C703B0600999F49 /* _HappyValentineTests.swift */,
+				CEB4873E1C703B0600999F49 /* Info.plist */,
+			);
+			path = _HappyValentineTests;
+			sourceTree = "<group>";
+		};
+		CEB487461C703B0600999F49 /* _HappyValentineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB487471C703B0600999F49 /* _HappyValentineUITests.swift */,
+				CEB487491C703B0600999F49 /* Info.plist */,
+			);
+			path = _HappyValentineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB487231C703B0500999F49 /* _HappyValentine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB4874C1C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentine" */;
+			buildPhases = (
+				CEB487201C703B0500999F49 /* Sources */,
+				CEB487211C703B0500999F49 /* Frameworks */,
+				CEB487221C703B0500999F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _HappyValentine;
+			productName = _HappyValentine;
+			productReference = CEB487241C703B0500999F49 /* _HappyValentine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB487371C703B0600999F49 /* _HappyValentineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB4874F1C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentineTests" */;
+			buildPhases = (
+				CEB487341C703B0600999F49 /* Sources */,
+				CEB487351C703B0600999F49 /* Frameworks */,
+				CEB487361C703B0600999F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB4873A1C703B0600999F49 /* PBXTargetDependency */,
+			);
+			name = _HappyValentineTests;
+			productName = _HappyValentineTests;
+			productReference = CEB487381C703B0600999F49 /* _HappyValentineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB487421C703B0600999F49 /* _HappyValentineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB487521C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentineUITests" */;
+			buildPhases = (
+				CEB4873F1C703B0600999F49 /* Sources */,
+				CEB487401C703B0600999F49 /* Frameworks */,
+				CEB487411C703B0600999F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB487451C703B0600999F49 /* PBXTargetDependency */,
+			);
+			name = _HappyValentineUITests;
+			productName = _HappyValentineUITests;
+			productReference = CEB487431C703B0600999F49 /* _HappyValentineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB4871C1C703B0500999F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tamiko;
+				TargetAttributes = {
+					CEB487231C703B0500999F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CEB487371C703B0600999F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CEB487231C703B0500999F49;
+					};
+					CEB487421C703B0600999F49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CEB487231C703B0500999F49;
+					};
+				};
+			};
+			buildConfigurationList = CEB4871F1C703B0500999F49 /* Build configuration list for PBXProject "_HappyValentine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB4871B1C703B0500999F49;
+			productRefGroup = CEB487251C703B0500999F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB487231C703B0500999F49 /* _HappyValentine */,
+				CEB487371C703B0600999F49 /* _HappyValentineTests */,
+				CEB487421C703B0600999F49 /* _HappyValentineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB487221C703B0500999F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB487321C703B0500999F49 /* LaunchScreen.storyboard in Resources */,
+				CEB4872F1C703B0500999F49 /* Assets.xcassets in Resources */,
+				CEB4872D1C703B0500999F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB487361C703B0600999F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB487411C703B0600999F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB487201C703B0500999F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB4872A1C703B0500999F49 /* ViewController.swift in Sources */,
+				CEB487281C703B0500999F49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB487341C703B0600999F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB4873D1C703B0600999F49 /* _HappyValentineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB4873F1C703B0600999F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB487481C703B0600999F49 /* _HappyValentineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB4873A1C703B0600999F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB487231C703B0500999F49 /* _HappyValentine */;
+			targetProxy = CEB487391C703B0600999F49 /* PBXContainerItemProxy */;
+		};
+		CEB487451C703B0600999F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB487231C703B0500999F49 /* _HappyValentine */;
+			targetProxy = CEB487441C703B0600999F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB4872B1C703B0500999F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB4872C1C703B0500999F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB487301C703B0500999F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB487311C703B0500999F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB4874A1C703B0600999F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB4874B1C703B0600999F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB4874D1C703B0600999F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _HappyValentine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB4874E1C703B0600999F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _HappyValentine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEB487501C703B0600999F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _HappyValentineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_HappyValentine.app/_HappyValentine";
+			};
+			name = Debug;
+		};
+		CEB487511C703B0600999F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _HappyValentineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_HappyValentine.app/_HappyValentine";
+			};
+			name = Release;
+		};
+		CEB487531C703B0600999F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _HappyValentineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _HappyValentine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEB487541C703B0600999F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _HappyValentineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tamiko.-HappyValentineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _HappyValentine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB4871F1C703B0500999F49 /* Build configuration list for PBXProject "_HappyValentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB4874A1C703B0600999F49 /* Debug */,
+				CEB4874B1C703B0600999F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB4874C1C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB4874D1C703B0600999F49 /* Debug */,
+				CEB4874E1C703B0600999F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB4874F1C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB487501C703B0600999F49 /* Debug */,
+				CEB487511C703B0600999F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB487521C703B0600999F49 /* Build configuration list for PBXNativeTarget "_HappyValentineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB487531C703B0600999F49 /* Debug */,
+				CEB487541C703B0600999F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB4871C1C703B0500999F49 /* Project object */;
+}
